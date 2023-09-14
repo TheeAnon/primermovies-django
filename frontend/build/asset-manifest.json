@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5751b964.css",
-    "main.js": "/static/js/main.a4a52172.js",
+    "main.css": "/static/css/main.7a2bbdce.css",
+    "main.js": "/static/js/main.20af9a6e.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/the.chi.png": "/static/media/the.chi.8fbbe034aceaf725bc2c.png",
+    "static/media/the.chi.jpg": "/static/media/the.chi.40040b8b44ee590a5104.jpg",
+    "static/media/avatar.png": "/static/media/avatar.43e751b03c3892a2146c.png",
+    "static/media/google.png": "/static/media/google.f34acd08a40efe59187f.png",
     "static/media/favicon.jpg": "/static/media/favicon.412a4b49750897614064.jpg",
     "index.html": "/index.html",
-    "main.5751b964.css.map": "/static/css/main.5751b964.css.map",
-    "main.a4a52172.js.map": "/static/js/main.a4a52172.js.map",
+    "main.7a2bbdce.css.map": "/static/css/main.7a2bbdce.css.map",
+    "main.20af9a6e.js.map": "/static/js/main.20af9a6e.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5751b964.css",
-    "static/js/main.a4a52172.js"
+    "static/css/main.7a2bbdce.css",
+    "static/js/main.20af9a6e.js"
   ]
 }

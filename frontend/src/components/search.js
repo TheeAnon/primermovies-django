@@ -1,20 +1,22 @@
 const SearchBar = () => {
   return (
-    <form className="flex-grow">
+    <form className="flex-grow p-0">
       <div className="relative w-full">
-        <select className="select select-bordered absolute top-0 left-0 rounded-r-none">
-          <option selected>All Categories</option>
-          <option>TV series</option>
-          <option>Movies</option>
-          <option>Anime</option>
-        </select>
+        <div className="absolute top-0 bottom-0 left-1 flex">
+          <select className="m-auto text-center p-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option selected>All</option>
+            <option value="series">Series</option>
+            <option value="movies">Movies</option>
+            <option value="anim">Anime</option>
+          </select>
+        </div>
         <input
           type="text"
           placeholder="Search for Movies, Tv Series and Anime"
-          className="input input-bordered w-full pr-16 pl-40 flex-grow"
+          className="input input-bordered w-full pr-10 pl-24 flex-grow rounded-full"
           required
         />
-        <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
+        <button className="btn btn-ghost btn-circle absolute top-0 right-0">
           <svg
             className="w-4 h-4"
             aria-hidden="true"
