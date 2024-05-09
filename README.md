@@ -1,2 +1,2 @@
 # primermovies
-A web app made in React/Django to download and stream Movies, TV series and Anime.
+A web app made in React/Node to download and stream Movies, TV series and Anime.
