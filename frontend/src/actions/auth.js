@@ -66,6 +66,7 @@ export const checkAuthenticated = () => async (dispatch) => {
         });
       });
   } else {
+    dispatch({ type: AUTHENTICATED_FAIL });
   }
 };
 
